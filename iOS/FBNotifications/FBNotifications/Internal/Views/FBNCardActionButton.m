@@ -30,7 +30,7 @@
     self = [super initWithFrame:CGRectZero];
     if (!self) return self;
 
-    _configuration = configuration;
+    self.configuration = configuration;
     _action = action;
 
     self.clipsToBounds = YES;
